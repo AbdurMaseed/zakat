@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculate</title>
+        <link rel="stylesheet" href="ind.css">
+</head>
+<body>
+
+      <div class="hero">
+      <div class="form-box">
+      <h1>Name</h1>
+      <input type="text"  id="myText" value="">
+       <br>
+      <h2>TotalAmount</h2>
+      <input type="number" id="totalAmount">
+      <br>
+      <h2>Calculate Zakat</h2>
+      <button onclick="
+      let amount = document.getElementById('totalAmount').value;
+      let zakatAmount = amount /40;
+       document.getElementById('heading').innerText = zakatAmount;">
+       Click Here</button>
+      
+      <h3>Your Zakat is</h3>
+       <h4 id="heading">0</h4>
+      </div>
+    </div>
+
+
+       
+     <div class="king">
+      <div class="sad">
+       
+       
+      <h1>TotalAmount</h1>
+      <input type="number" id="totalMoney">
+      <br>
+
+      <button onclick="
+      let money = document.getElementById('totalMoney').value;
+      let shareOfWife = money /8;
+      let shareOfSon = money - shareOfWife;
+      document.getElementById('heading1').innerText =shareOfWife;
+      document.getElementById('heading2').innerText =shareOfSon;">
+      click here</button>
+      
+      <h2>hare of wife</h2>
+      <h3 id="heading1">0</h3>
+      <h2>shar of son</h2>
+      <h3 id="heading2">0</h3>     
+       </div>
+     </div>
+
+
+
+     </body>
+
+
+   </html>

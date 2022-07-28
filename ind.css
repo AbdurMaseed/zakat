@@ -1,0 +1,72 @@
+body{
+      background :linear-gradient(rgba(7, 165, 238, 0.7),rgba(19, 110, 214, 0.7)), url(background1.png);
+      
+      width: 95%;
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      background-image: url(background1.png);
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      vertical-align: 100%;
+      font-size: 100%;
+      text-align: center;
+}
+.hero{
+      width: 400px;
+      margin: 40px;
+      background-position: 100px;
+      font-style: italic;
+      font-size: 25px;
+      position: relative;
+      text-align: center;
+
+}
+
+.form-box{
+      background-color: lightrgb(196, 191, 183);
+      width: 380px;
+      height: 550px;
+      font-size: 25px;
+      border-radius: 20px;
+      border: 1px solid rgba(160, 76, 76, 0.918);
+      box-shadow: 4px 4px 15px #f30606ec;
+      color: rgb(0, 102, 255);
+      text-align: center;
+      position: relative;
+      margin: 6%px; 
+
+      padding: 5px;
+      
+
+}
+
+
+.king{
+      width: 400px;
+      margin: 40px;
+      background-position: 100px;
+      font-style: italic;
+      font-size: 25px;
+      position: relative;
+      
+}
+
+
+
+
+.sad{ 
+      background-color: rgba(0,0,0,0,5);
+      width: 380px;
+      height: 550px;
+      font-size: 25px;
+      border-radius: 20px;
+      border: 1px solid rgba(160, 76, 76, 0.918);
+      box-shadow: 4px 4px 15px #d81818dc;
+      color: rgb(0, 102, 255);
+      text-align: center;
+      padding: 5px;
+
+
+
+}
